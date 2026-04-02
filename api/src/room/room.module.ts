@@ -2,9 +2,9 @@ import { Module } from "@nestjs/common";
 import Redis from "ioredis";
 import { RoomService } from "./room.service";
 import { RedisRoomStore } from "./redis-room.store";
-import { RoomStore } from "src/types/room.types";
+import { RoomStore } from "../types/room.types";
 import { RoomGateway } from "./room.gateway";
-import { SessionModule } from "src/session/session.module";
+import { SessionModule } from "../session/session.module";
 
 @Module({
 	imports: [SessionModule],

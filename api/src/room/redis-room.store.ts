@@ -1,6 +1,6 @@
 import { Inject, Injectable } from "@nestjs/common";
 import Redis from "ioredis";
-import { IRoom, RoomStore } from "src/types/room.types";
+import { IRoom, RoomStore } from "../types/room.types";
 
 @Injectable()
 export class RedisRoomStore extends RoomStore {

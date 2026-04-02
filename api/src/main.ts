@@ -5,7 +5,7 @@ import { AppModule } from "./app.module";
 import * as morgan from "morgan";
 
 async function bootstrap() {
-	if (!process.env.APP_PORT) throw new Error("APP_PORT não definido no .env");
+	if (!process.env.PORT) throw new Error("PORT não definido no .env");
 
 	const app = await NestFactory.create(AppModule);
 
@@ -21,11 +21,11 @@ async function bootstrap() {
 
 	app.use(morgan("dev"));
 
-	await app.listen(process.env.APP_PORT);
+	await app.listen(process.env.PORT);
 
 	console.clear();
 
-	console.log(`Application is running on: http://localhost:${process.env.APP_PORT}`);
+	console.log(`Application is running on: http://localhost:${process.env.PORT}`);
 }
 
 bootstrap();

@@ -9,9 +9,9 @@ import {
 } from "@nestjs/websockets";
 import { Server, Socket } from "socket.io";
 import { RoomService } from "./room.service";
-import { SessionService } from "src/session/session.service";
-import { eEvent } from "src/types/event.types";
-import { eVoteState, IRoom } from "src/types/room.types";
+import { SessionService } from "../session/session.service";
+import { eEvent } from "../types/event.types";
+import { eVoteState, IRoom } from "../types/room.types";
 
 @WebSocketGateway({
 	cors: { origin: "*" },

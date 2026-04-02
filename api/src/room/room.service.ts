@@ -1,6 +1,6 @@
 import { Inject, Injectable } from "@nestjs/common";
 import { randomUUID } from "crypto";
-import { eVoteState, IRoom, RoomStore } from "src/types/room.types";
+import { eVoteState, IRoom, RoomStore } from "../types/room.types";
 
 @Injectable()
 export class RoomService {
