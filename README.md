@@ -5,14 +5,11 @@ Aplicação web em tempo real para sessões de **Planning Poker**, permitindo qu
 ## ✨ Funcionalidades
 
 - **Salas em tempo real** — Crie ou entre em salas com código compartilhável
-- **Votação com Fibonacci** — Escala padrão (1, 2, 3, 5, 8, 13, 21, 34, 55, 89) com opção de abstenção
+- **Votação** — Escala padrão com opção de abstenção
 - **Votos ocultos** — Votos permanecem escondidos até o admin revelar
-- **Estatísticas** — Média, mediana e moda calculadas ao revelar os votos
-- **Modo espectador** — Participe sem votar
+- **Estatísticas** — Média, mediana calculadas ao revelar os votos
 - **Transferência de admin** — Passe o controle da sala para outro participante
 - **Emojis interativos** — Lance emojis para outros participantes 🎉
-- **Reconexão automática** — Sessão preservada via JWT ao reconectar
-- **Dark mode** — Interface escura por padrão
 
 ## 🛠️ Tech Stack
 
@@ -22,7 +19,7 @@ Aplicação web em tempo real para sessões de **Planning Poker**, permitindo qu
 | Backend    | **NestJS**, Socket.IO, JWT                       |
 | Banco      | **Redis** (armazenamento de salas)               |
 | Runtime    | **Bun**                                          |
-| Deploy     | **Docker** + Docker Compose                      |
+| Deploy     | **Docker**                                       |
 
 ## 📁 Estrutura do Projeto
 
