@@ -1,0 +1,30 @@
+{
+	"name": "app",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"build": "nuxt build",
+		"dev": "nuxt dev",
+		"preview": "nuxt preview",
+		"postinstall": "nuxt prepare",
+		"lint": "eslint .",
+		"typecheck": "nuxt typecheck",
+		"format": "prettier --write \"**/*.{json,ts,css,vue}\""
+	},
+	"dependencies": {
+		"@iconify-json/lucide": "^1.2.90",
+		"@iconify-json/simple-icons": "^1.2.70",
+		"@nuxt/ui": "^4.4.0",
+		"nuxt": "^4.3.1",
+		"socket.io-client": "^4.8.3",
+		"tailwindcss": "^4.1.18",
+		"vue3-emoji-picker": "^1.1.8"
+	},
+	"devDependencies": {
+		"@nuxt/eslint": "^1.15.1",
+		"eslint": "^10.0.0",
+		"prettier": "^3.8.1",
+		"typescript": "^5.9.3",
+		"vue-tsc": "^3.2.4"
+	}
+}
