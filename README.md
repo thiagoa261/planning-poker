@@ -41,7 +41,7 @@ planning-poker/
 │   └── package.json      # 📦 Dependências do Frontend
 ├── docker-compose.yml    # 🔧 Orquestração Docker Compose
 └── .env.example          # 🧩 Exemplo de variáveis de ambiente
-`
+```
 
 ## 🚀 Começando
 
